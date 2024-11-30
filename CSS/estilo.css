@@ -157,6 +157,15 @@ h1 {
     text-align: center;
 }
 
+#seccion_form {
+    border: 3px solid #eea302;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 5%;
+}
 
 form label {
     display: block;
