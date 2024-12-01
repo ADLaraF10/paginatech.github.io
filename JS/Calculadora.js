@@ -68,6 +68,10 @@ function agregarCaracter(caracter){
     expresion.value += caracter;
 }
 
+function limpiar(){
+    var input = document.getElementById('expresion')
+    input.value = ""
+}
 
 
 
