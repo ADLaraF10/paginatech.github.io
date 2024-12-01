@@ -24,7 +24,7 @@ function hacerOperacion(){
     }else if(datos.op === "/"){
         expresion.value = datos.n1 / datos.n2;
     }else{
-        expresion.value = "ilegalArgumrnt"
+        expresion.value = "ilegalArgument"
     }
     
     if(!borrar){
