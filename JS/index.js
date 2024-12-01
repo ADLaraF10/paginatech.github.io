@@ -1,6 +1,6 @@
 
 /* SMOOTH SCROLLING */
-const enlaces = document.querySelectorAll("nav a");
+const enlaces = document.querySelectorAll(".referencia");
 
 enlaces.forEach(enlace => {
     console.log("hola");
