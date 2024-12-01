@@ -1,89 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="CSS/estilo.css" />
     <title>Mi Pagina</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav>
-        <a href="#">Sobre mi</a>
-        <a href="#">Tecnologias</a>
-        <a href="#">Objetivos</a>
-        <a href="#">Horarios</a>
+      <a href="#">Sobre mi</a>
+      <a href="#">Tecnologias</a>
+      <a href="#">Objetivos</a>
+      <a href="#">Horarios</a>
     </nav>
     <div id="miPagina">
-        <h1>Mi Pagina Estatica</h1>
+      <h1>Mi Pagina Estatica</h1>
     </div>
     <div id="acerca">
-        <img src="Recursos/Perfil.png" alt="placeHolderPerfil" />
-        <div id="acercaInfo">
-            <h2>Acerca de mi</h2>
-            <p>
-                Soy Andres Lara, un estudiante de ingenieria de sistemas, hambriento
-                por aprender sobre programacion. me apaciona programar, la capacidad
-                de crearcion que tenemos en este mundo es asombrosa
-            </p>
-            <button>Contacto</button>
-        </div>
+      <img src="Recursos/Perfil.png" alt="placeHolderPerfil" />
+      <div id="acercaInfo">
+        <h2>Acerca de mi</h2>
+        <p>
+          Soy Andres Lara, un estudiante de ingenieria de sistemas, hambriento
+          por aprender sobre programacion. me apaciona programar, la capacidad
+          de crearcion que tenemos en este mundo es asombrosa
+        </p>
+        <button>Contacto</button>
+      </div>
     </div>
     <section id="Listas">
-        <div>
-            <h3>Tecnologias</h3>
-            <ul>
-                <li>Java</li>
-                <li>Kotlin</li>
-                <li>basico Phyton</li>
-                <li>basico JavaScript</li>
-                <li>html</li>
-            </ul>
-        </div>
-        <div>
-            <h3>Objetivos</h3>
-            <ol>
-                <li>Alto nivel como desarollador Web</li>
-                <li>mejorar mi conocimiento en Kotlin</li>
-                <li>Obtener experiencia laboral como progrmador</li>
-            </ol>
-        </div>
+      <div>
+        <h3>Tecnologias</h3>
+        <ul>
+          <li>Java</li>
+          <li>Kotlin</li>
+          <li>basico Phyton</li>
+          <li>basico JavaScript</li>
+          <li>html</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Objetivos</h3>
+        <ol>
+          <li>Alto nivel como desarollador Web</li>
+          <li>mejorar mi conocimiento en Kotlin</li>
+          <li>Obtener experiencia laboral como progrmador</li>
+        </ol>
+      </div>
     </section>
     <section id="contenedor_tabla">
-        <h3>Preferencia de Horario</h3>
-        <table>
-            <tr>
-                <th>Lunes</th>
-                <th>Martes</th>
-                <th>Miercoles</th>
-                <th>Jueves</th>
-                <th>Viernes</th>
-                <th>Sabado</th>
-            </tr>
-            <tr>
-                <td>Mañana</td>
-                <td>Mañana</td>
-                <td>Tarde</td>
-                <td>Mañana</td>
-                <td>Tarde</td>
-                <td>Tarde</td>
-            </tr>
-        </table>
+      <h3>Preferencia de Horario</h3>
+      <table>
+        <tr>
+          <th>Lunes</th>
+          <th>Martes</th>
+          <th>Miercoles</th>
+          <th>Jueves</th>
+          <th>Viernes</th>
+          <th>Sabado</th>
+        </tr>
+        <tr>
+          <td>Mañana</td>
+          <td>Mañana</td>
+          <td>Tarde</td>
+          <td>Mañana</td>
+          <td>Tarde</td>
+          <td>Tarde</td>
+        </tr>
+      </table>
     </section>
-    <section id = "seccion_form">
-        <form>
-            <h3>Contacto</h3>
-            <label for="Nombre">Nombre</label>
-            <input type="text" name="Nombre" id="Nombre" />
-            <label for="Correo">Correo</label>
-            <input type="email" name="email" id="email" />
-            <label for="Mensaje">Mensaje</label>
-            <textarea name="Mensaje" id="Mensaje"></textarea>
-            <input type="submit" name="enviar" id="btn-enviar">
-        </form>
+    <section id="seccion_form">
+      <form>
+        <h3>Contacto</h3>
+        <div>
+          <label for="Nombre">Nombre</label>
+          <label for="apellido">Apellido</label>
+          <input type="text" name="Nombre" id="Nombre" />
+          <input type="text" name="apellido" id="apellido" />
+        </div>
+        <label for="Correo">Correo</label>
+        <input type="text" name="email" id="email" />
+        <label for="Mensaje">Mensaje</label>
+        <textarea name="Mensaje" id="Mensaje"></textarea>
+        <input type="submit" name="enviar" id="btn-enviar" />
+      </form>
     </section>
-    <footer>hola</footer>
-</body>
-
+    <footer>
+        <p>
+            Telefono: 3215994680
+        </p> 
+        <p>
+            Instagram: @ADLaraF_10
+        </p>
+        <p>
+            GitHub: ADLaraF10
+        </p>
+    </footer>
+  </body>
 </html>
